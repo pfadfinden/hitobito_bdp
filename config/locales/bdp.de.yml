@@ -1,0 +1,79 @@
+#  Copyright (c) 2012-2025, Bund der Pfadfinderinnen und Pfadfinder. This file is part of
+#  hitobito_bdp and licensed under the Affero General Public License version 3
+#  or later. See the COPYING file at the top-level directory or at
+#  https://github.com/pfadfinden/hitobito_bdp.
+
+de:
+  activerecord:
+    models:
+
+      ### GROUPS
+      group/bund_vorstand: Bundesvorstand
+      group/bund_ak: 
+        one: "Bundesarbeitskreis"
+        other: "Bundesarbeitskreise"
+      group/root: Bund
+      group/land:
+        one: "Landesverband"
+        other: "Landesverbände"
+      group/bezirk:
+        one: "Bezirk"
+        other: "Bezirke"
+      group/stamm:
+        one: "Stamm"
+        other: "Stämme"
+      group/stamm_vorstand: Stammesführung
+      group/stamm_meute:
+        one: "Meute"
+        other: "Meuten"
+      group/stamm_sippe:
+        one: "Sippe"
+        other: "Sippen"
+      group/stamm_runde:
+        one: "Runde"
+        other: "Runden"
+      group/land_vorstand: Landesvorstand
+      group/land_ak:
+        one: "Landesarbeitskreis"
+        other: "Landesarbeitskreise"
+      ### ROLES
+      
+      group/root/leader:
+        one: Leitung
+        description: Leitungspersonen verwalten die Applikation.
+      group/root/member:
+        one: Mitglied
+        description: Mitglieder sind alle anderen.
+      group/bund_vorstand/bundesvorsitztender : Bundesvorsitzende*r
+      group/bund_vorstand/stellvbundesvorsitzender : stellv. Bundesvorsitzende*r
+      group/bund_vorstand/bundesschatzmeister: Bundesschatzmeister*in
+      group/bund_vorstand/stellvbundesschatzmeister: stellv. Bundesschatzmeister*in
+      group/bund_ak/bundesbeauftragter: Bundesbeauftrage*r
+      group/bund_ak/bundesakmitglied: Bundes-AK-Mitglied
+      group/land_vorstand/landesvorstiztender : Landesvorsitzende*r
+      group/land_vorstand/stellvlandesvorsitzender : stellv. Landesvorsitzende*r
+      group/land_vorstand/landesschatzmeister: Landesschatzmeister*in
+      group/land_vorstand/stellvlandesschatzmeister: stellv. Landesschatzmeister*in
+      group/land_ak/landesbeauftragter: Landesbeauftrage*r
+      group/land_ak/landesakmitglied: Landes-AK-Mitglied
+      group/stamm_vorstand/stammesfuehrer : Stammesführer*in
+      group/stamm_vorstand/stellvstammesfuehrer : stellv. Stammesführer*in
+      group/stamm_vorstand/stammesschatzmeister: Stammesschatzmeister*in
+      group/stamm_vorstand/stellvstammesschatzmeister: stellv. Stammesschatzmeister*in
+      group/stamm_meute/meutenfuehrung: Meutenführung
+      group/stamm_meute/woelfling: Wölfling
+      group/stamm_sippe/sippenfuehrung: Sippenführung
+      group/stamm_sippe/sippling: Sippling
+      group/stamm_runde/rundensprecher: Rundensprecher*in
+      group/stamm_runde/rr: Ranger / Rover
+      group/stamm/mitgliederverwalter: Stammesmitgliederverwalter*in
+      group/stamm/ordentlichesmitglied: Ordentliches Mitglied
+      group/stamm/foerdermitglied: Fördermitglied
+      group/stamm/zweitmitglied: Zweitmitglied
+      group/land/mitgliederverwalter: Landesmitgliederverwalter*in
+      group/land/ordentlichesmitglied: Landesunmittelbares Mitglied
+      group/land/foerdermitglied: Landes-Fördermitglied
+
+
+    
+    
